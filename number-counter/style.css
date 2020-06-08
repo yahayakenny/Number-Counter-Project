@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Lato ;
+}
+
+#counter {
+    font-size: 100px;
+    margin-top: 10px;
+
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: 800
+
+}
+button:focus{
+    outline: none;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+#add {
+    background-color: green;
+    margin-right: 30px;
+}
+
+#subtract {
+    background-color: brown;
+}
+
+h1 {
+    font-size: 70px;
+}
